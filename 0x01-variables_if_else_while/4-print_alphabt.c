@@ -9,7 +9,7 @@
 int main(void)
 {
 char ch;
-for (ch != 'e' && ch != 'q')
+for (ch = 'e' && ch <= 'q')
 {
 if (ch != 'e' && ch != 'q')
 {
