@@ -28,3 +28,5 @@ _putchar('\n');
 }
 hours++;
 minutes = 0;
+}
+}
