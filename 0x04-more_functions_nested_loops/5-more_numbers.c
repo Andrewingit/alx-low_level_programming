@@ -21,6 +21,6 @@ _putchar((n2 / 10) + '0');
 }
 _putchar((n2 % 10) + '0');
 }
-_putchar('\n');
+_putchar(10);
 }
 }
