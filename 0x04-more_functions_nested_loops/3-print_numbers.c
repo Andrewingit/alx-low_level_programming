@@ -16,5 +16,5 @@ for (n = 48; n < 58; n++)
 {
 putchar(n);
 }
-puchar(10);
+putchar(10);
 }
