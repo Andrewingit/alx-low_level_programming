@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,7 +9,7 @@
 
 void more_numbers(void)
 {
-int n, count;
+int n1, count;
 
 for (count = 0; count <= 9; count++)
 {
