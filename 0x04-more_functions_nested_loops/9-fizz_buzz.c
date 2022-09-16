@@ -7,32 +7,34 @@
 *Return: returns 0
 */
 int main(void)
-
 {
-int i;
-
-for (i = 0; i <= 100; i++)
+int num = 0;
+while (num++ < 100)
 {
-if (i % 3 == 0 && i % 5 != 0)
+if ((num % 3 == 0) && (num % 5 == 0))
 {
-printf (" Fizz");
+printf("FizzBuzz ");
 }
-else if (i % 5 == 0 && i % 3 != 0)
+else if ((num % 3) == 0)
 {
-printf (" Buzz");
+printf("Fizz ");
 }
-else if (i % 3 == 0 && i % 5 == 0)
+else if ((num % 5) == 0)
 {
-printf("FizzBuzz");
-}
-else if (i == 1)
+if (num != 100)
 {
-printf("%d", i);
+printf("Buzz ");
 }
 else
 {
-printf(" %d", i);
+printf("Buzz");
+}
+}
+else
+{
+printf("%d ", num);
 }
 }
 printf("\n");
 return (0);
+}
