@@ -1,0 +1,1 @@
+this file contains all the task the should be in the 0x07-pointers_arrays_strings directory. gooodluck to me
