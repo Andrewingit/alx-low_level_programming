@@ -2,7 +2,7 @@
 
 /**
 *len - returns length of str
-*@str: string command
+*@str: string counted
 *Return: return the length
 */
 int len(char *str)
