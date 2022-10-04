@@ -2,7 +2,7 @@
 
 /**
 *create_array - creates an array of chars, and
-*initialises it with a specific char
+*initialises it with a specific char.
 *@size: size of the array
 *@c: Character to insert
 *Return: NULL if size is zero or if it fails,
@@ -16,7 +16,7 @@ unsigned int index;
 
 if (size == 0)
 return (NULL);
-array = malloc(sizeof(char)) * size);
+array = malloc(sizeof(char) * size);
 
 if (array == NULL)
 return (NULL);
