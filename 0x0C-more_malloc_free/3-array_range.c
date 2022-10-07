@@ -6,7 +6,7 @@
 *@min: first integer number
 *@max: last integer number
 *
-*Return: pointer to nwly allocated memory or NULL if fails
+*Return: pointer to newly allocated memory or NULL if fails
 */
 int *array_range(int min, int max)
 {
@@ -15,7 +15,7 @@ int *a;
 if (min > max)
 return (NULL);
 l = max - min + 1;
-a = malloc(sizeof(int) * 1);
+a = malloc(sizeof(int) * l);
 if (a == NULL)
 return (NULL);
 for (i = 0; i < l; i++, min++)
