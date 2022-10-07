@@ -29,7 +29,7 @@ for (j = 0; s2[j]; j++)
 }
 if (j > n)
 j = n;
-s = malloc(sizeof(Char) * (i + j + 1));
+s = malloc(sizeof(char) * (i + j + 1));
 if (s == NULL)
 return (NULL);
 for (k = 0; k < i; k++)
