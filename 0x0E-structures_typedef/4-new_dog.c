@@ -1,4 +1,4 @@
-#include <stlib.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
 *new_dog - creates a new dog
@@ -10,7 +10,7 @@
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-int i, lenN, len0;
+int i, lenN, lenO;
 struct dog *n_dog = NULL;
 
 lenN = 0;
