@@ -24,4 +24,4 @@ if (i < n - 1 && separator)
 printf("%s", separator);
 }
 printf("\n");
-va_end(valist);
+va_end (valist);
