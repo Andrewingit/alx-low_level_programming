@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdlib.h>
 /**
 *insert_nodeint_at_index - inserts a new mode to a listint_t
 *@head: a pointer to the address fo the head of the list
