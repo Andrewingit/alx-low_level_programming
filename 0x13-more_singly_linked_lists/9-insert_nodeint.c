@@ -1,19 +1,19 @@
 #include "lists.h"
 #include <stdlib.h>
+
 /**
-*insert_nodeint_at_index - inserts a new mode to a listint_t
-*@head: a pointer to the address fo the head of the list
-*@idx: the index of the listint_t list where the new node should
-*be added. indices start at 0
-*@n: the integer for the new mode to contain.
+* insert_nodeint_at_index -  inserts a new node at a given position.
+* @head: double pointer to the first node in the list
+* @idx: index of the node to insert
+* @n: value for new node
 *
-*Return: if the function fails
+* Return: pointer to the indexed node
 */
+
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 unsigned int i;
 listint_t *current, *new;
-
 if (head == NULL)
 return (NULL);
 if (idx != 0)
